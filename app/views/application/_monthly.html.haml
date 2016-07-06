@@ -1,0 +1,29 @@
+%h1 Books that Matter
+ 
+%p 
+  All books matter! But there are some books...that really matter. They tell a story, send a message, and paint a picture that is 
+  unforgettable and really matters in the world. Whether they are exploring different cultures around the world, exploring topics 
+  like adoption or disabilities, or exploring messages like "work hard," books teach us that life is different and wonderful for 
+  different people, despite all our different experiences. As we read, we learn to be compassionate and aware. So we are ultra-focused 
+  on finding books that matter to share with you-- they are essentially just some of our favorite, less known books that have 
+  been published more recently and are harder to know about! We hope you'll consider adding some of these wonderful books to 
+  your home library. 
+ 
+%p 
+  We have the help of a Children's book author, Galen Longstreth, as we pick and review books to share here!  
+  alen Longstreth is the author of Yes, Let’s, illustrated by Maris Wicks.  She taught kindergarten in Philadelphia
+  and sold children’s books at Powell’s Books in Portland, Oregon.  She lives in Philadelphia only a few blocks
+  from the library, one of her favorite places in the world.
+ 
+.books.list
+  - Rails.configuration.app[:pages][:books].each_with_index do |book,i|
+    .book.item{:class=> i.odd? ?  "odd" : "even"}
+      %img{:src => book[:image]}
+      .info
+        %h3.title= book[:title]
+        .author= book[:author]
+        .description
+          - book[:description].each do |description|
+            %p= description
+        
+

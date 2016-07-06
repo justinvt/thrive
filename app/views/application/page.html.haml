@@ -1,0 +1,7 @@
+.page
+  - begin
+    = render params[:page]
+  - rescue
+    - File.open("#{Rails.root }/app/views/application/_#{params[:page].to_s}.html.haml", "a+")
+
+    = render params[:page]

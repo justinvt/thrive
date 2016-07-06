@@ -1,0 +1,389 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require bootstrap.min
+ *= require nav
+ *= require_tree .
+ *= require_self
+ */
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+$nav_color: #76a049;
+$jumbo_color:#336688;
+$jumbo_color2:#003448;
+
+.social{
+  text-align:center;
+  margin:auto;
+  width:200px;
+  height:30px;
+}
+
+
+
+.facebook, .twitter, .instagram, .pinterest{
+  background-size:30px;
+ background-repeat:no-repeat;
+  width:30px;
+  height:30px;
+  display:block;
+  float:left;
+  margin-right:10px;
+  margin-bottom:10px;
+  
+}
+.facebook{ 
+  background-image:url("/assets/facebook.png");
+
+  
+}
+.twitter{   
+  background-image:url("/assets/twitter.png");
+ 
+}
+.pinterest{
+  margin-right:0;
+  background-image:url("/assets/pinterest.png");
+
+}
+.instagram{
+  background-image:url("/assets/instagram.png");
+
+}
+.footer p{
+  clear:both;
+  margin-top:2em;
+}
+body{
+  padding: 0;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+._research .page{
+  width:45em;
+  margin:70px auto 70px auto;
+}
+.page{
+  overflow:auto;
+  padding-bottom:150px; 
+  margin:70px 40px 0 40px;
+  h1 {
+    font-weight: 300;
+    line-height: 1.4;
+    color:$jumbo_color2;
+    margin:0 0 0.5em 0;
+    
+  }
+
+  h2 {
+    font-size:16px;
+     margin: 2em 0 0 0
+  }
+  .testament, p{
+    font-size:1.2em;
+    line-height:2em;
+  }
+  
+  p
+  {
+    margin: 1.5em 0 0 0;
+    color:#888;
+
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+  ul{
+    margin:3em 0;
+  }
+  li{
+  
+    color:#3ad;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    width:35em;
+    margin:0 0 0.2em 0em;
+  }
+}
+._testimonials h1, ._staff h1 ._partners h1, ._research *{
+  //text-align:center;
+}
+._research {
+  h1, ul, li{
+    //text-align:center;
+  }
+}
+.age,.length{
+  display:inline;
+  color:#aaa;
+  font-weight:300;
+  margin-bottom:1.5em;
+ font-size:17px;
+}
+.age{
+   padding:0 0.5em 0 0;
+   color:#888; 
+}
+.length{
+  color:#ccc;
+  padding:0.5em;
+  border:solid 1px #ccc;
+
+}
+.details{
+  color:white;
+  float:right;
+  clear:right;
+  background:$nav_color;
+  width:250px;
+  margin:0 0px 30px 30px;
+  padding:20px;
+  font-size:1em;
+  border-radius:5px;
+  h3{ 
+    margin-top:0;
+    opacity:1;
+    font-weight:300;
+  }
+  h4{
+    opacity:0.5;
+    font-weight:300;
+    margin:1.2em 0 1.2em 0;
+  }
+  div div div{
+    margin:0 0 1em 0em;
+    padding:0 0 0 0.5em;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+   
+  }
+   div div div:before{
+     content:" » ";
+     opacity:0.3;
+   };
+
+  p{
+    width:auto;
+    color:white;
+    opacity:0.7;
+  }
+
+}
+.testament{
+  width:40%;
+  margin:5%;
+
+  float:left;
+  .content{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-style:italic;
+    color:#888;
+    margin:auto auto 2em auto;
+  }
+  .content:before{
+    content:"“";
+
+  }
+  .content:after{
+    content:"”";
+
+  }
+  span.name
+  {
+    
+    color:#333;
+  }
+   span.name:before{
+    content:" - ";
+  }
+  .description{
+    font-weight: 400;
+    color:#666;
+  }
+  
+}
+
+.testament.odd{
+
+  //text-align:right;
+}
+.list{
+  display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    flex-wrap:wrap;
+    -webkit-align-content: stretch;
+    align-content: stretch;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+.item{
+  margin:60px 0 0px 0;
+  padding:0 60px 40px 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width:48%;
+  order:0;
+  img{
+    float:left;
+    width:100px;
+    border:solid 3px #ddd;
+    margin:0 2em 2em 0;
+  }
+  .info{
+    margin:0 0 0 0px;
+    width:auto;
+ 
+  }
+  h3{ margin:0 0 0 0;}
+
+}
+
+._testimonials{
+  h1{
+    text-align:center;
+  }
+}
+._monthly{
+  .books{
+    .book{
+      flex-grow:0;
+    }
+  }
+}
+
+.item.testament{
+  width:33%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  text-align:center;
+}
+
+.dropdown-menu{
+  width:100%;
+  background:#76a049;
+  
+  li{
+    color:#fff;
+    font-weight:bold;
+    padding:10px;
+    text-transform: capitalize;
+  }
+  li{
+    a{color:#fff;opacity:0.8;font-size:14px;}
+  }
+  li:hover{
+
+  }
+}
+
+.partner{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.classes{
+  border-top:solid 1px #ccc;
+  margin: 3em 0 0 0;
+}
+.class{
+  margin:3em 0 0 0;
+}
+
+.footer,.banner{
+  width:100%;
+  text-align:center;
+  padding:30px;
+}
+
+.banner {  
+
+  background-color: $jumbo_color; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from($jumbo_color), to($jumbo_color2));
+  background-image: -webkit-linear-gradient(top, $jumbo_color 0%, $jumbo_color2 100%);
+  background-image:      -o-linear-gradient(top, $jumbo_color 0%, $jumbo_color2 100%);
+  background-image:         linear-gradient(to bottom,$jumbo_color 0%, $jumbo_color2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$jumbo_color', endColorstr='$jumbo_color2',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  
+}
+
+.footer{
+  background:#003448;
+  color:#fff;
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+   height: 150px;
+   clear:both;
+   padding-top:20px;
+}
+
+.logo{
+  margin:0 auto 0 auto;
+  padding:0px ;
+  background: url("logo.gif");
+  background-position:center;
+  background-size:529px;
+  background-repeat:no-repeat;
+  width: 529px;
+  height: 328px;
+ 
+}
+
+html, body {
+  height: 100%;
+}
+#wrap{
+  margin-bottom:200px;
+  min-height:100%;
+}
+
+
+@media (min-width: 1200px) {
+  .masthead {
+    margin:30px;
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .masthead {
+    margin:30px;
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+}

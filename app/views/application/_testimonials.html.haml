@@ -1,0 +1,11 @@
+%h1 Parents of Thrive kids say &hellip;
+.list
+  - Rails.configuration.app[:pages][:testimonials][:people].each_with_index do |testament,i|
+    .testament.perso.item{:class=> i.odd? ?  "odd" : "even"}
+      .info
+        .content= testament[:content]
+        .description
+          = testament[:description]
+        .name
+          %span.name= testament[:name]
+   

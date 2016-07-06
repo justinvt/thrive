@@ -1,0 +1,27 @@
+title: thrive literacy
+contact:
+  default: &default_title thriveliteracy
+  email: thiveliteracy@gmail.com
+  phone: 484.343.3953
+  facebook: *default
+  instagram: *default
+  twitter: ThriveLiteracy​
+  pinterest: *default
+content:
+  header: We serve growing readers and writers out of various locations in Philadelphia and surrounding suburbs.  Get in touch at thriveliteracy@gmail.com to learn how you can Thrive with us! 484-343-3953
+navigation:
+  why_thrive:
+    - research
+    - testimonials
+    - staff
+    - partners
+  literacy classes:
+    - Classes for 2 or 3 year olds
+    - pre-kindergarteners
+    - private or small group tutoring
+    - summer services
+    - bookmaking clubs
+  resources:
+    - monthly book picks
+pages:
+  home:

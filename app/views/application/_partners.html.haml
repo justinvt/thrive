@@ -1,0 +1,43 @@
+
+%h1 Our Partners
+
+.partners.list
+  - partner = {:image => "/assets/partners/church.jpg", :url => "http://www.stmaryswaynepa.org/"}
+  .partner.item
+    %a{:href=>"#{partner[:url]}"}
+      %img{:src => "#{partner[:image]}"}
+    .name 
+      %a{:href=> "#{partner[:url]}"}
+        St.Mary's Episcopal Chruch
+    .description 
+    We hold our Summer Literacy Camps and summer time tutoring out of St. Mary's Episcopal Church in the heart of Wayne.
+    
+  - partner = {:url =>"http://www.lmls.org/lib_pennwynne.html", :image =>  "/assets/partners/library.jpg"}
+  .partner.item
+    %a{:href=>"#{partner[:url]}"}
+      %img{:src => "#{partner[:image]}"}
+    .name 
+      %a{:href=> "#{partner[:url]}"}
+        Local Libraries
+    .description 
+    Early literacy classes are held at local libraries during the school year. We also offer private and small group tutoring at libraries all year long. We currently work in Radnor Library, Ludington LIbrary, Penn Wynne Library, Tredyffrin Library, and Haverford Library.
+
+  - partner = {:url => "http://www.nestcentercity.com/", :image => "/assets/partners/nest.png"}
+  .partner.item
+    %a{:href=>"#{partner[:url]}"}
+      %img{:src => "#{partner[:image]}"}
+    .name 
+      %a{:href=> "#{partner[:url]}"}
+        NEST Center City
+    .description
+      Early literacy classes including Get Set to Read, Preschool readers, and Small Group tutoring for Kindergarten and First Graders are at NEST Center City.
+
+  - partner = {:url => "http://www.lespetitscherubs.com/", :image => "/assets/partners/cherubs.jpg"}
+  .partner.item
+    %a{:href=>"#{partner[:url]}"}
+      %img{:src => "#{partner[:image]}"}
+    .name 
+      %a{:href=> "#{partner[:url]}"}
+        Le Petit Cherubs
+    .description
+      A new location for Early Literacy Classes and Bookmaking clubs! Le Petit has Learning Centers in Radnor, Roxborough, Audobon, and East Falls.

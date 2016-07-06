@@ -1,0 +1,13 @@
+%h1 Staff
+.people.list
+  - Rails.configuration.app[:pages][:staff][:people].each_with_index do |staff,i|
+    .person.item.staff{:class=> i.odd? ?  "odd" : "even"}
+      - if staff[:image]
+        %img{:src => staff[:image]} 
+      .info
+        %h3
+          %span.name= staff[:name]
+          %span.title= staff[:title]
+        %description
+          - !staff[:description].nil? and staff[:description].each do |p|
+            %p= p

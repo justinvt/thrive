@@ -1,0 +1,144 @@
+title: thrive literacy
+contact:
+  default: &default_title thriveliteracy
+  email: thiveliteracy@gmail.com
+  phone: 484.343.3953
+  facebook: *default_title
+  instagram: *default_title
+  twitter: ThriveLiteracy​
+  pinterest: *default_title
+content:
+  header: We serve growing readers and writers out of various locations in Philadelphia and surrounding suburbs.  Get in touch at thriveliteracy@gmail.com to learn how you can Thrive with us! 484-343-3953
+navigation:
+  why_thrive:
+    - research
+    - testimonials
+    - staff
+    - partners
+  literacy_classes:
+    - Classes for 2 or 3 year olds
+    - pre-kindergarteners
+    - private or small group tutoring
+    - summer services
+    - bookmaking clubs
+  resources:
+    - monthly book picks
+  
+pages:
+  testimonials:
+    heading: Hear from thrive Families
+    people:
+      - name: Lyndsey 
+        description: Ryan and Stella's Mom
+        content: As parents, we are constantly reminded how important it is to read to our children. I thought I was doing a good job by reading bedtime stories and interacting with my children throughout the day. I have two children (ages 5 and 3) who have been attending Thrive programs for a year now and I can't imagine not sending them. My kids LOVE going to class and Bridget has awakened their curiosity and excitement more than I ever could - and I tried!! They have a new love for letters, language, and reading and it truly is a gift to have this opportunity. Amazing programs and an even more awesome teacher! Thank you for everything!
+      - name: Lyndsey 
+        description: Ryan and Stella's Mom
+        content: As parents, we are constantly reminded how important it is to read to our children. I thought I was doing a good job by reading bedtime stories and interacting with my children throughout the day. I have two children (ages 5 and 3) who have been attending Thrive programs for a year now and I can't imagine not sending them. My kids LOVE going to class and Bridget has awakened their curiosity and excitement more than I ever could - and I tried!! They have a new love for letters, language, and reading and it truly is a gift to have this opportunity. Amazing programs and an even more awesome teacher! Thank you for everything!
+      - name: Tane
+        description: Totino's Mother
+        content: mportant it is to read to our children. I thought I was doing a good job by reading bedtime stories and interacting with my children throughout the day. I have two children (ages 5 and 3) who have been attending Thrive programs for a year now and I can't imagine not sending them. My kids LOVE going to class and Bridget has awakened their curiosity and excitement more than I ever could - and I tried!! They have a new love for letters, language, and reading and it truly is a gift to have this opportunity. Amazing programs and an even more awesome teacher! Thank you for everything!
+
+  books:
+    - title: One Family
+      author: George Shannon
+      image: /assets/books/one_family.jpg
+      description:
+        - In this unusual counting book, every page starts with the number one. “One is three,” says the third page. “One house of bears. One bowl of pears. One family.” Readers seek and find the bears, pears, and people and count, count, count. The diverse, happy families shown on each page grow one by one from the scene of a lone woman contentedly snuggling her cat to an apartment full of parents, siblings, cousins, and grandparents. With illustrations full of detailed interiors and busy city streets, it becomes nearly impossible to read this book without compulsively counting every group of objects in view. And who can argue with the concluding sentiment, that we are all one family?
+      recommend:
+        - Bear Counts by Karma Wilson and Jane Chapman
+      url: http://www.amazon.com/One-Family-George-Shannon/dp/0374300038/ref=sr_1_1?ie=UTF8&qid=1449263672&sr=8-1&keywords=one+family+george+shannon
+    - title: Ragweed’s Farm Dog Handbook
+      author: Anne Vittur Kennedy
+      image: /assets/books/ragweed_farm.jpg
+      description:
+        - Get ready to laugh. Ragweed, a scruffy white dog with excess energy, is going to show you the ins and outs of working on a farm.  Over and over, Ragweed tells us what not to do, until we understand that he desperately wants to perform the other animals’ jobs – wake the farmer, lie in the mud, eat grass – and that he ultimately (and hilariously) has no self control.  Beyond the pursuit of such pleasures as chasing sheep and meddling with hens, Ragweed will break all of his own rules for the sake of a dog biscuit. And yet we forgive him his faults as readily as the farmer does, won over by his boundless enthusiasm.
+      recommend:
+        - Officer Buckle and Gloria by Peggy Rathma
+        - Tuesday Tucks Me In by Luis Carlos Montalvan
+      url: http://www.amazon.com/Ragweeds-Farm-Handbook-Vittur-Kennedy/dp/0763674176/ref=sr_1_1?ie=UTF8&qid=1449263783&sr=8-1&keywords=ragweeds+farm+dog+handbook
+    - title: Niño Wrestles the World
+      author: Yuyi Morales
+      image: /assets/books/nino.jpg
+      description:
+        - Ladies and gentlemen, señoras y señores, get ready for a truly raucous read aloud experience. Niño, sporting a lucha libre wrestling mask and a pair of tighty whities, takes on mummies, aliens, ghosts and more, overcoming each opponent with his brilliant moves.  Zok! The Tickle Tackle.  Whonk! The Doll Decoy. Zzzwap! The Popsicle Slick. Every page of this book bursts with color, movement, humor, and noise, culminating in a match between Niño and the dreaded baby twin sisters (fresh from their nap).  Profiles of each wrestler decorate the endpapers and an author’s note about lucha libre helps give context to Niño’s outstanding performance for those unfamiliar with the sport. ¡Vivan las luchas!
+      recommend:
+        - Apes A-Go-Go by Roman Milisic
+        - Buddy and the Bunnies in: Don’t Play with Your Food by Bob Shea
+      url: http://www.amazon.com/Ni%C3%B1o-Wrestles-World-Yuyi-Morales/dp/1250062705/ref=sr_1_1?s=books&ie=UTF8&qid=1449263876&sr=1-1&keywords=nino+wrestles+the+world
+    - title: Intersteller Cinderalla
+      author: Deborah Underwood and Meg Hunt
+      image: /assets/books/interstellar.jpg
+      description:
+        - In this Cinderella story, our young heroine dreams not of finding prince charming but of fixing rocket ships. At the royal parade, Cinderella helps the prince with a repair, and the two of them spend the rest of the evening talking shop.  Readers appreciating Cinderella’s mechanical inclinations and the adventurousness inherent in an outer space setting quickly understand that this story will not end with Cinderella batting her eyelashes at the prince.  Children will love comparing and contrasting this version of the story with others they know, as well as poring over the details of life in space.  And hopefully they will feel empowered to follow their dreams, whatever those might be.
+      recommend:
+        - Morris Micklewhite and the Tangerine Dress by Christine Baldacchino
+        - Rosa by Nikki Giovanni
+      url: http://www.amazon.com/Interstellar-Cinderella-Deborah-Underwood/dp/1452125325/ref=sr_1_1?s=books&ie=UTF8&qid=1449264010&sr=1-1&keywords=interstellar+cinderella
+    - title: Norman, Speak!
+      author: Caroline Adderson and Qin Leng
+      image: /assets/books/norman.jpg
+      description:
+        - In the first few pages, this picture book seems to tell a simple story about a boy and his dog.  Chosen from an animal shelter, Norman is good-natured, loves to play, and wags his stumpy rump in greeting.  But he won’t listen to a word anyone says.  One day, the boy’s family discovers that Norman understands Chinese.  So what do they do?  They sign up for Chinese lessons.  Now it’s their turn not to understand what the teacher is saying.  Humbled by Norman’s mastery of this difficult language and motivated by their love for him, the family persists until they all understand each other.  Full of surprises, this story asks readers to consider what it means to be smart, how hard it is to learn something new, and the many strengths each individual brings to the world. 
+      recommend:
+        - My Name is Yoon by Helen Recorvits
+        - Yoko Learns to Read by Rosemary Wells
+      url: http://www.amazon.com/Norman-Speak-Caroline-Adderson/dp/1554983223/ref=sr_1_1?ie=UTF8&qid=1441071663&sr=8-1&keywords=norman+speak&pebp=1441071671646&perid=1W1QRA8QB7WRRK0CWSE2
+  staff:
+    people:
+      - name: Bridget Nolen
+        title: Owner
+        image: /assets/staff/bridget.jpg
+        description:
+          - My career in education started sixteen years ago as a first grade teacher. I ultimately ended my time in the classroom in Tredyffrin-Easttown School District (Devon Elementary) to work as an adjunct professor and reading specialist at West Chester University. I also began to consult with a beloved non-profit called Children's Literacy Initiative (CLI), which I am fortunate to still be working with today.  In my time with CLI, I have worked as a Professional Developer and Manager of Content Development, designing and delivering professional development programs for teachers, coaches, and leaders. I always aspired to own my own business, committed to sharing what I know and believe about evidence-based practice in early literacy education. Thrive is a culmination of these beliefs and aspirations, and I am humbled to lead its journey. We've only just begun!  
+          - Born and raised in Havertown, I still live there with my husband, Rick, and children, Cole (4), Shea (2), and Liv (11 mo.)
+      - name: Dawn Willette
+        title: Teacher and Parent Educator
+        image: /assets/staff/dawn.jpg
+        description:
+          - My professional background includes many years of working in Early Intervention prior to getting my M.Ed. in Counseling Psychology with a Certification in Elementary Guidance Counseling.  Since then I have had the privilege of working with children and families in different settings, and am currently employed as an Assistant Preschool Teacher and Parent Educator.
+          - I live in Merion Station with my husband, twelve year old son and nine year old daughter. I am easily excited by children's books, literacy and the opportunity to read with young children. Thrive offers me the opportunity to put all of this into practice.
+      - name: Marie Hawley
+        title: Reading Specialist
+        image: /assets/staff/marie.jpg
+        description:
+          - I have worn many hats in my role as “teacher”. I have taught in both city and suburban schools.   I have worked with whole classes and small groups.  Now, as a tutor, I have the pleasure of working in one on one scenarios addressing very individual and specific needs.  I am able to meet the child at his or her level and provide need based support and remediation while increasing motivation and interest.  My current hat-as reading tutor-is a great fit!
+          - I received my undergraduate degree from Saint Joseph’s University in Elementary Education.  I later returned to Saint Joseph’s for my Masters in Reading.  As a classroom teacher I taught second grade, while as a reading specialist I worked with students from kindergarten to fifth grade.  For the last six years, as a tutor, I have worked with students ranging from preschool to eighth grade.
+          - I  live in Bryn Mawr with my husband and children.  I am a proud “hockey mom” to two ice hockey players and once field hockey player.  When I am not at the library I can be found driving to hockey-cheering at hockey-or looking for missing hockey equipment…this hat is warm, wooly and my favorite!
+      - name: Stacy Collins
+        title: MS CCC-SLP
+        image: /assets/staff/stacy.jpg
+        description:
+          - My career has spanned twenty years working as a Pediatric Speech-Language Pathologist with young children aged 0-12 through early intervention, center based therapeutic/educational settings and the Delaware County Library System where I coordinated an outreach program for 0-5 year olds. My love is early language and literacy development and helping families maximize their child's communicative power- through books, pictures, sign language and ultimately verbal speech!  I am certified in the Hanen Early Language Program out of Canada which provides resources and training for SLP’s to help parents facilitate speech even more communication through play, early literacy activities and singing/rhyming.  So, working at Thrive is allowing me to combine my passions and knowledge by leading the Get Set to Read class for young 3 year olds!
+          - I am from Central Illinois but have lived and worked in Southeastern Pennsylvania since 1998.  Currently, I live in Havertown with my husband and two children ages 10 and 12 and love reading, biking, exploring hidden places and visiting the library as much as possible!
+      - name: Jane Berna
+        title: Reading Specialist
+        image: /assets/staff/jane.jpg
+        description:
+          - Teaching and working with children has always been my passion.  I have worked with and taught children ages three to twelve for over 35 years.  I graduated with BS in Education from St. Joseph’s University and then received my MS in Reading and my PA Certification as a Reading Specialist in 2013. 
+          - I enjoy working with children of all ages and strive to create a peaceful and comfortable environment so they are at ease.  I vary the lessons and include student interests in order to keep them engaged in instruction and provide some fun as well.  I truly believe all children can learn and hope they leave each session with a feeling of success and increased self-confidence. 
+          - My husband and I moved from NE Philadelphia to Havertown almost 11 years ago.  Our son, who is 26, lives in S Philadelphia.   We also care for my 90 year old mother who resides in our home.  In my leisure time I enjoy biking and I am a member of Team Raudies Riders.  Our annual ride is the Bike MS - City to Shore event (Cherry Hill to Ocean City).  I also love to read and collect children’s books.  My favorite genre is historical fiction.
+      - name: Eve Galvin
+        title: teacher
+        image: /assets/staff/eve.jpg
+        description:
+          - My teaching career began in New York City where I completed a Masters Degree in early childhood education from Bank Street College of Education. I taught in private preschool, ages 2-5, before moving on to teach in the New York City public school system as a Kindergarten and first grade teacher. While in New York, I was trained as a reading specialist using the New Zealand based Reading Recovery program. Locally, I taught preschool for children diagnosed with developmental speech and language delays, and provided reading support for first graders at Friends' Central School.
+          - I live in Wynnewood with my husband and two teenage daughters, all of whom share my passion for reading and for great books.
+      - name: Katie Maroney
+        title: Teacher
+        description:
+          - I received my Early Childhood Education degree from Lancaster Bible College.  It was during my student teaching that I remember thinking "I'm going to get paid for this!!"  I was in awe at how complete I felt while in the front of a classroom.  The planning, multi-tasking, creating and facilitating all fit me perfectly.  Connecting with students and their families was one of the best perks to my job.  I adored my position as a first grade teacher and taught for 7 years and also had numerous tutoring students along the way. 
+          - I reside in King of Prussia with my husband and two young sons (Aiden is 6 and Ryan is 4).  Aside from teaching for Thrive Literacy I have been substitute teaching over the past couple of years.  Thrive Literacy has given me the chance to keep my mind fresh, be creative and best of all to connect with students and families again.  I love everything about Thrive.  It opens doors for me to share my joy and passion for reading.  When I was in elementary school I struggled with reading.  So to have the chance to build up a child's confidence in this academic area is truly full circle for me!
+      - name: Ann Long
+      - name: Michele Hyde
+       
+defaults:  &defaults
+  
+    
+development:
+  <<: *defaults
+  
+test:
+  <<: *defaults
+  
+production:
+  <<: *defaults
