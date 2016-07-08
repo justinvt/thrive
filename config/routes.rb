@@ -3,15 +3,12 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'application#page', :page => "home"
+  root 'application#page', :page => "research"
   get 'page/:page', 
     :controller => :application, 
     :action => :page,
     :page => Dir.entries("pages").select{|f| f.match(/\.md$/)}.map{|i| i.match( /^[a-z_]+/).to_s.to_sym}
-  get 'page/:page', 
-    :controller => :application, 
-    :action => :page,
-    :page => Dir.entries("pages").select{|f| f.match(/\.md$/)}.map{|i| i.match( /^[a-z_]+/).to_s.to_sym}
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
